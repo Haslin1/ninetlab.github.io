@@ -89,23 +89,42 @@
 
         <!-- Contact Us -->
         <div class="contact-us-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 contact-form wow fadeInLeft">
-                        <p>
-                            Join the NINET Lab in its mission to alleviate suffering for those wishing to recover from mental illnesses.
-                        </p>
-                        
-                    </div>
-                    <div class="col-sm-5 contact-address wow fadeInUp">
-                        <h3>We Are Here</h3>
-                        <div class="map"></div>
-                        <h3>Address</h3>
-                        <p>Detwiller Pavilion, 2255 Wesbrook Mall <br> Vancouver, British Columbia, V6T 1Z3</p>
-                        <p>Phone: (604) 827-1361 <br> Email: ninet.lab@mail.ubc.ca</p>
-                    </div>
-                </div>
-            </div>
+        	<div class="container">
+	            <div class="row">
+	                <div class="col-sm-7 contact-form wow fadeInLeft">
+	                    <p>
+	                    	Join the NINET Lab in its mission to alleviate suffering for those wishing to recover from mental illnesses.
+	                    </p>
+	                    <form role="form" action="assets/contact.php" method="post">
+	                    	<div class="form-group">
+	                    		<label for="contact-name">Name</label>
+	                        	<input type="text" name="name" placeholder="Enter your name..." class="contact-name" id="contact-name">
+	                        </div>
+	                    	<div class="form-group">
+	                    		<label for="contact-email">Email</label>
+	                        	<input type="text" name="email" placeholder="Enter your email..." class="contact-email" id="contact-email">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label for="contact-subject">Subject</label>
+	                        	<input type="text" name="subject" placeholder="Your subject..." class="contact-subject" id="contact-subject">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label for="contact-message">Message</label>
+	                        	<textarea name="message" placeholder="Your message..." class="contact-message" id="contact-message"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn">Send</button>
+	                    </form>
+	                </div>
+	                <div class="col-sm-5 contact-address wow fadeInUp">
+	                    <h3>We Are Here</h3>
+	                    <div class="map"></div>
+	                    <h3>Address</h3>
+	                    <p>Detwiller Pavilion, 2255 Wesbrook Mall <br> Vancouver, British Columbia, V6T 1Z3</p>
+	                    <p>Phone: (604) 827-1361 <br> Email: ninet.lab@mail.ubc.ca</p>
+
+	                </div>
+	            </div>
+	        </div>
         </div>
 
         <!-- Footer -->
